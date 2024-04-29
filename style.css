@@ -30,7 +30,7 @@ footer{
 }
 
 body{
-    padding-top: 100px;
+    padding-top: 110px;
     padding-left: 3%;
     padding-right: 3%;
 }
@@ -48,9 +48,19 @@ footer span{
 }
 
 nav{
-
     display: flex;
     flex-wrap:nowrap;
     justify-content: center;
     gap:20px;
+}
+
+
+@media (max-width: 900px){
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    body{
+        padding-top: 200px;
+    }
 }
