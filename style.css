@@ -1,0 +1,56 @@
+#footer-separation-line{
+    background-color: #76ABAE;
+    height: 1px;
+    width: 100%;
+    opacity: 0.5;
+}
+
+html{
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+header{
+    position: fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #31363F;
+}
+
+footer{
+    padding-top: 10px;
+    height:100px;
+}
+
+#id-name{
+    margin-top: 0px;
+}
+
+body{
+    padding-top: 100px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+footer span{
+    margin: 10px;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.nav-icon{
+    height: 25px;
+}
+
+nav{
+
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+    gap:20px;
+}
